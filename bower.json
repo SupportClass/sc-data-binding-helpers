@@ -1,0 +1,28 @@
+{
+  "name": "sc-data-binding-helpers",
+  "homepage": "https://github.com/SupportClass/sc-data-binding-helpers",
+  "authors": [
+    "Alex Van Camp <vancamp.alex@gmail.com>"
+  ],
+  "description": "Polymer 2.x mixin that provides some useful methods for data bindings.",
+  "main": "sc-data-binding-helpers.html",
+  "keywords": [
+    "polymer",
+    "mixin",
+    "data",
+    "binding",
+    "helpers"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.2"
+  }
+}
