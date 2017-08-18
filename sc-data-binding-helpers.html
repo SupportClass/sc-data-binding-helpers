@@ -52,7 +52,8 @@
 			 * Mostly useful for elements whose height is determined by their text content,
 			 * and for whom having no text context at all would constitute a visual error.
 			 *
-			 * Works by checking if the argument is falsey. If it is, returns a non-breaking space (Alt+255).
+			 * Works by checking if the argument is a string, and then if it has a length greater than 0.
+			 * If it does not, it returns an non-breaking space (Alt+255) instead.
 			 *
 			 * @param {string} string
 			 * @returns {string} - Either the input string or an Alt+255 non-breaking space.
