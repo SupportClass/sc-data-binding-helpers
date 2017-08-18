@@ -7,9 +7,11 @@ A Polymer 2.x mixin that provides some useful methods for data bindings. See the
 ```
 <custom-element-demo>
   <template>
+    <link rel="import" href="../polymer/polymer-element.html">
     <link rel="import" href="../polymer/lib/elements/dom-if.html">
     <link rel="import" href="sc-data-binding-helpers.html">
     <next-code-block></next-code-block>
+    <my-element></my-element>
   </template>
 </custom-element-demo>
 ```
@@ -24,11 +26,11 @@ A Polymer 2.x mixin that provides some useful methods for data bindings. See the
         </style>
         
         <template is="dom-if" if="[[_isTruthy(foo)]]">
-            foo is truthy.
+            foo is: truthy
         </template>
         
         <template is="dom-if" if="[[_isFalsey(foo)]]">
-            foo is falsey.
+            foo is: falsey
         </template>
     </template>
     
@@ -45,7 +47,10 @@ A Polymer 2.x mixin that provides some useful methods for data bindings. See the
             
             static get properties() { 
                 return {
-                    foo: String
+                    foo: {
+                        type: String,
+                        value: 'foo'
+                    }
                 };
             }
         }
