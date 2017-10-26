@@ -1,6 +1,6 @@
 # Polymer.SCDataBindingHelpers [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/SupportClass/sc-data-binding-helpers) [![Build Status](https://travis-ci.org/SupportClass/sc-data-binding-helpers.svg?branch=master)](https://travis-ci.org/SupportClass/sc-data-binding-helpers)
 
-A Polymer 2.x mixin that provides some useful methods for data bindings. See the [listing on webcomponents.org](https://www.webcomponents.org/element/SupportClass/sc-data-binding-helper/smixins/Polymer.SCDataBindingHelpers) for full documentation (You'll need to click on "Show N protected methods" to see them).
+A Polymer 2.x mixin that provides some useful methods for data bindings. See the [listing on webcomponents.org](https://www.webcomponents.org/element/SupportClass/sc-data-binding-helpers/mixins/Polymer.SCDataBindingHelpers) for full documentation (You'll need to click on "Show N protected methods" to see them).
 
 ## Example
 <!--
