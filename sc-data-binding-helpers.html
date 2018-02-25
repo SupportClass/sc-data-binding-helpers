@@ -81,6 +81,16 @@
 			_isFalsey(value) {
 				return !value;
 			}
+
+			/**
+			 * Checks if every argument is truthy.
+			 *
+			 * @param {...*} values - As many other arguments as you want to check for truthiness.
+			 * @returns {boolean} - True if all arguments are truthy.
+			 */
+			_all(...values) {
+				return values.each(value => value);
+			}
 		}
 
 		return SCDataBindingHelpers;
