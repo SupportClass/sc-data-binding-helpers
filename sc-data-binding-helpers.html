@@ -26,6 +26,50 @@
 			}
 
 			/**
+			 * Checks if A is less than B.
+			 *
+			 * @param {*} a - Left argument to compare.
+			 * @param {*} b - Right argument to compare.
+			 * @return {boolean} - True if A is less than B.
+			 */
+			_lessThan(a, b) {
+				return a < b;
+			}
+
+			/**
+			 * Checks if A is less than or equal to B.
+			 *
+			 * @param {*} a - Left argument to compare.
+			 * @param {*} b - Right argument to compare.
+			 * @return {boolean} - True if A is less than or equal to B.
+			 */
+			_lessThanEqual(a, b) {
+				return a <= b;
+			}
+
+			/**
+			 * Checks if A is greater than B.
+			 *
+			 * @param {*} a - Left argument to compare.
+			 * @param {*} b - Right argument to compare.
+			 * @return {boolean} - True if A is greater than B.
+			 */
+			_greaterThan(a, b) {
+				return a > b;
+			}
+
+			/**
+			 * Checks if A is greater than or equal to B.
+			 *
+			 * @param {*} a - Left argument to compare.
+			 * @param {*} b - Right argument to compare.
+			 * @return {boolean} - True if A is greater than or equal to B.
+			 */
+			_greaterThanEqual(a, b) {
+				return a >= b;
+			}
+
+			/**
 			 * Checks if the first argument is equal to any of the remaining arguments.
 			 *
 			 * @param {*} value - The value to check the remaining arguments for.
