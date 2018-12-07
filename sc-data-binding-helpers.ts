@@ -1,3 +1,17 @@
+export interface SCDataBindingHelpers extends Polymer.Element {
+	_equal(a: any, b: any): boolean;
+	_lessThan(a: any, b: any): boolean;
+	_lessThanEqual(a: any, b: any): boolean;
+	_greaterThan(a: any, b: any): boolean;
+	_greaterThanEqual(a: any, b: any): boolean;
+	_oneOf(value: any, ...options: any[]): boolean;
+	_includes(array: any[], value: any): boolean;
+	_ensureText(str: unknown): string;
+	_isTruthy(value: any): boolean;
+	_isFalsey(value: any): boolean;
+	_all(...values: any[]): boolean;
+}
+
 /**
  * Element class mixin that provides some useful methods for data bindings.
  *
@@ -10,7 +24,7 @@ const mixin = Polymer.dedupingMixin((base: (new () => Polymer.Element)) => { // 
 	 * @mixinClass
 	 * @polymer
 	 */
-	return class SCDataBindingHelpers extends base { // tslint:disable-line:no-unused
+	return class extends base implements SCDataBindingHelpers { // tslint:disable-line:no-unused
 		/**
 		 * Checks if two arguments are strict equal (===).
 		 * Does not check for deep equality.

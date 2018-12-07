@@ -10,7 +10,7 @@ const mixin = Polymer.dedupingMixin((base) => {
      * @mixinClass
      * @polymer
      */
-    return class SCDataBindingHelpers extends base {
+    return class extends base {
         /**
          * Checks if two arguments are strict equal (===).
          * Does not check for deep equality.
