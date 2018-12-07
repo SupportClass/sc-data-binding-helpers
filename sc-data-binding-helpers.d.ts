@@ -5,7 +5,7 @@
  * @polymer
  * @summary Element class mixin that provides some useful methods for data bindings.
  */
-export declare const mixin: (base: new () => Polymer.Element) => {
+declare const mixin: (base: new () => Polymer.Element) => {
     new (): {
         [x: string]: any;
         /**
@@ -97,3 +97,4 @@ export declare const mixin: (base: new () => Polymer.Element) => {
         _all(...values: any[]): boolean;
     };
 };
+export default mixin;

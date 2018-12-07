@@ -5,7 +5,7 @@
  * @polymer
  * @summary Element class mixin that provides some useful methods for data bindings.
  */
-export const mixin = Polymer.dedupingMixin((base: (new () => Polymer.Element)) => { // tslint:disable-line:no-unnecessary-type-annotation
+const mixin = Polymer.dedupingMixin((base: (new () => Polymer.Element)) => { // tslint:disable-line:no-unnecessary-type-annotation
 	/**
 	 * @mixinClass
 	 * @polymer
@@ -136,6 +136,8 @@ export const mixin = Polymer.dedupingMixin((base: (new () => Polymer.Element)) =
 		}
 	};
 });
+
+export default mixin;
 
 // Legacy global variable export.
 (Polymer as any).SCDataBindingHelpers = mixin;

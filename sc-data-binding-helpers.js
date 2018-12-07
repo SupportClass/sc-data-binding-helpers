@@ -5,7 +5,7 @@
  * @polymer
  * @summary Element class mixin that provides some useful methods for data bindings.
  */
-export const mixin = Polymer.dedupingMixin((base) => {
+const mixin = Polymer.dedupingMixin((base) => {
     /**
      * @mixinClass
      * @polymer
@@ -126,6 +126,7 @@ export const mixin = Polymer.dedupingMixin((base) => {
         }
     };
 });
+export default mixin;
 // Legacy global variable export.
 Polymer.SCDataBindingHelpers = mixin;
 //# sourceMappingURL=sc-data-binding-helpers.js.map
