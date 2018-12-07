@@ -11,4 +11,4 @@ before_install:
   - npm install -g bower
   - bower install
 script:
-  - npm t
+  - npm run build
