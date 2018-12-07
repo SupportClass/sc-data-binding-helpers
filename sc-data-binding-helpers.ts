@@ -19,7 +19,7 @@ export interface SCDataBindingHelpers extends Polymer.Element {
  * @polymer
  * @summary Element class mixin that provides some useful methods for data bindings.
  */
-const mixin = Polymer.dedupingMixin((base: (new () => Polymer.Element)) => { // tslint:disable-line:no-unnecessary-type-annotation
+const mixin = Polymer.dedupingMixin((base: (new () => Polymer.Element)): (new () => SCDataBindingHelpers) => { // tslint:disable-line:no-unnecessary-type-annotation
 	/**
 	 * @mixinClass
 	 * @polymer
