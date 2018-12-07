@@ -10,3 +10,5 @@ coverage
 /.idea/shelf/
 
 /desktop.ini
+
+\.idea/codeStyles/codeStyleConfig\.xml
