@@ -1,6 +1,6 @@
 {
   "name": "sc-data-binding-helpers",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Polymer 2.x mixin that provides some useful methods for data bindings.",
   "main": "sc-data-binding-helpers.js",
   "types": "sc-data-binding-helpers.d.ts",
