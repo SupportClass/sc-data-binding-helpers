@@ -1,0 +1,20 @@
+{
+	"extends": "@supportclass/tsconfig-base",
+	"compilerOptions": {
+		"module": "es2015",
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"baseUrl": "./",
+		"paths": {
+			"tslib" : ["node_modules/tslib/tslib.d.ts"]
+		},
+		"declaration": true,
+		"declarationMap": false,
+		"sourceMap": true,
+		"inlineSourceMap": false
+	},
+	"include": [
+		"bower_components/**/*.d.ts",
+		"sc-data-binding-helpers.ts"
+	]
+}

@@ -2,7 +2,7 @@
   "name": "sc-data-binding-helpers",
   "homepage": "https://github.com/SupportClass/sc-data-binding-helpers",
   "authors": [
-    "Alex Van Camp <vancamp.alex@gmail.com>"
+    "Alex Van Camp <alex@supportclass.net>"
   ],
   "description": "Polymer 2.x mixin that provides some useful methods for data bindings.",
   "main": "sc-data-binding-helpers.html",

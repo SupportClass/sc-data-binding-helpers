@@ -1,0 +1,36 @@
+{
+  "name": "sc-data-binding-helpers",
+  "version": "1.2.0",
+  "description": "Polymer 2.x mixin that provides some useful methods for data bindings.",
+  "main": "sc-data-binding-helpers.js",
+  "types": "sc-data-binding-helpers.d.ts",
+  "devDependencies": {
+    "@supportclass/tsconfig-base": "^1.0.2",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-xo": "^0.10.0",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "test": "tslint -p tsconfig.json",
+    "prebuild": "npm t",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupportClass/sc-data-binding-helpers.git"
+  },
+  "keywords": [
+    "polymer",
+    "mixin",
+    "data",
+    "binding",
+    "helpers"
+  ],
+  "author": "Alex Van Camp <alex@supportclass.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SupportClass/sc-data-binding-helpers/issues"
+  },
+  "homepage": "https://github.com/SupportClass/sc-data-binding-helpers#readme"
+}

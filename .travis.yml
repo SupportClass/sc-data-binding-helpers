@@ -8,7 +8,7 @@ cache:
   - bower_components
   - "$HOME/.npm"
 before_install:
-  - npm install -g polymer-cli bower
+  - npm install -g bower
   - bower install
 script:
-  - polymer lint
+  - npm run build
